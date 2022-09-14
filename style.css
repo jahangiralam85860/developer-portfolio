@@ -69,3 +69,14 @@ footer p{
     text-align: center;
     color: tomato;
 }
+
+@media only screen and (max-width:688px) {
+    .experience-area{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    #baby-web{
+        order: 1;
+    }
+}
